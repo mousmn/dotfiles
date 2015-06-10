@@ -1,0 +1,7 @@
+*
+!.gitignore
+!herbstluftwm/
+!i3/
+!i3pystatus/
+!i3status/
+!vim/
