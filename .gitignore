@@ -5,3 +5,9 @@
 !i3pystatus/
 !i3status/
 !vim/
+!vim/*
+!herbstluftwm/*
+!i3/*
+!i3pystatus/*
+!i3status/*
+
