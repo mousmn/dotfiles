@@ -11,4 +11,4 @@
 !i3pystatus/*
 !i3status/*
 .*.un\~
-.*~
+*\~
