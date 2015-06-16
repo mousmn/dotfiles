@@ -24,7 +24,7 @@ font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec gnome-terminal
+bindsym $mod+Return exec xfce4-terminal
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -176,8 +176,8 @@ bindsym $mod+n exec caja --no-desktop --browser
 bindsym $mod+Tab focus right
 bindsym $mod+Shift+Tab focus left
 bindsym Mod1+F2 exec mate-panel --run-dialog
-#bindsym $mod+m exec sakura
-bindsym $mod+m exec gnome-terminal
+bindsym $mod+m exec xfce4-terminal
+#bindsym $mod+m exec gnome-terminal
 bindsym $mod+c exec chromium
 
 
