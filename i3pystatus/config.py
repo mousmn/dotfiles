@@ -17,6 +17,9 @@ status.register("clock",
 # (the default value for format is used)
 status.register("load")
 
+status.register("cpu_freq",
+        format="{avgg}",)
+
 # Shows your CPU temperature, if you have a Intel CPU
 #status.register("temp",
 #    format="{temp:.0f}°C",)

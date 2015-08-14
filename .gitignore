@@ -12,3 +12,4 @@
 !i3status/*
 .*.un\~
 *\~
+!.zshrc

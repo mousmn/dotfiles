@@ -151,7 +151,7 @@ bar {
     #status_command i3status
 
 	status_command python ~/.config/i3pystatus/config.py
-	font pango: roboto 13
+	font pango: Noto Sans 11
 
 	position top
 	colors{
@@ -162,15 +162,15 @@ bar {
 }
 
 
-#exec --no-startup-id /usr/bin/mate-settings-daemon
-exec --no-startup-id /usr/lib/mate-settings-daemon/mate-settings-daemon
-exec --no-startup-id /usr/bin/nm-applet
-exec --no-startup-id /usr/bin/mate-volume-control-applet
-#exec --no-startup-id /usr/bin/feh --bg-fill '/home/dakota/Downloads/1421030099031.jpg' 
-exec --no-startup-id /usr/bin/xsetroot -solid "#333333"
-exec --no-startup-id /usr/bin/dropbox-cli start
-#exec --no-startup-id /usr/bin/compton --config=/home/dakota/.config/.compton.conf
-exec --no-startup-id /usr/bin/ibus-daemon -drx
+#exec --no-startup-id /usr/bin/mate-settings-daemon &
+exec --no-startup-id /usr/lib/mate-settings-daemon/mate-settings-daemon &
+exec --no-startup-id /usr/bin/nm-applet &
+exec --no-startup-id /usr/bin/mate-volume-control-applet &
+#exec --no-startup-id /usr/bin/xsetroot -solid "#333333" &
+exec --no-startup-id feh --bg-fill /home/dakota/Dropbox/1421030099031.jpg &
+exec --no-startup-id /usr/bin/dropbox-cli start &
+#exec --no-startup-id /usr/bin/compton --config=/home/dakota/.config/.compton.conf &
+exec --no-startup-id /usr/bin/ibus-daemon -drx &
 
 bindsym $mod+n exec caja --no-desktop --browser
 bindsym $mod+Tab focus right
@@ -225,3 +225,4 @@ bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 
 #hide_edge_borders both
+
