@@ -167,7 +167,8 @@ exec --no-startup-id /usr/lib/mate-settings-daemon/mate-settings-daemon &
 exec --no-startup-id /usr/bin/nm-applet &
 exec --no-startup-id /usr/bin/mate-volume-control-applet &
 #exec --no-startup-id /usr/bin/xsetroot -solid "#333333" &
-exec --no-startup-id feh --bg-fill /home/dakota/Dropbox/1421030099031.jpg &
+#exec --no-startup-id feh --bg-fill /home/dakota/Dropbox/1421030099031.jpg &
+exec --no-startup-id feh --bg-fill /home/dakota/Dropbox/Solarized\ Mountains.png
 exec --no-startup-id /usr/bin/dropbox-cli start &
 #exec --no-startup-id /usr/bin/compton --config=/home/dakota/.config/.compton.conf &
 exec --no-startup-id /usr/bin/ibus-daemon -drx &
