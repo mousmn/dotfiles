@@ -148,9 +148,9 @@ bindsym $mod+r mode "resize"
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
-    #status_command i3status
+	#status_command i3status
 
-	status_command python ~/.config/i3pystatus/config.py
+	status_command py3status
 	font pango: Noto Sans 11
 
 	position top
@@ -168,7 +168,7 @@ exec --no-startup-id /usr/bin/nm-applet &
 exec --no-startup-id /usr/bin/mate-volume-control-applet &
 #exec --no-startup-id /usr/bin/xsetroot -solid "#333333" &
 #exec --no-startup-id feh --bg-fill /home/dakota/Dropbox/1421030099031.jpg &
-exec --no-startup-id feh --bg-fill /home/dakota/Dropbox/Solarized\ Mountains.png
+exec --no-startup-id feh --bg-fill /home/dakota/Dropbox/Solarized-Mountains.png
 exec --no-startup-id /usr/bin/dropbox-cli start &
 #exec --no-startup-id /usr/bin/compton --config=/home/dakota/.config/.compton.conf &
 exec --no-startup-id /usr/bin/ibus-daemon -drx &
