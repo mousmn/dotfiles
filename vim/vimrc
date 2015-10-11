@@ -102,3 +102,6 @@ if has('langmap') && exists('+langnoremap')
 endif
 
 set nowrap
+set cursorline
+set colorcolumn=80
+set number
